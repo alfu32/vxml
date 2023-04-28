@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<array item-type="entity.EntityTwo" length="11">
+    <entity.EntityTwo>
+        <id type="string">361af158-17e9-412f-b72c-c72dc5da2344</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">400ff429-74e0-4297-b6b8-0fcc4bb7df57</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">f94144d5-99b1-4f9c-b760-bf004904d428</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">78794d87-907a-4e09-aff2-50b1ffa47812</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">9b6d0db5-b9cc-454c-b96c-92011d60c8c9</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">2eb6c90c-87c8-4bab-ad39-2de389cf1d49</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">a8cb7372-49f9-431a-b00e-4594db20bf82</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">42faba66-ecc2-4f3a-b97d-25b612ee5a83</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">32fdbb79-e9d0-4859-8d61-f799fbbaa3fe</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">811f523c-615f-4e2d-aa48-ad899f96a787</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+    <entity.EntityTwo>
+        <id type="string">a65bafb5-3dee-4d39-94d6-36b9f822ec61</id>
+        <name type="string">Hello World!</name>
+        <signal type="int">128</signal>
+    </entity.EntityTwo>
+</array>

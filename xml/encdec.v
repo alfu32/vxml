@@ -1,5 +1,6 @@
 module xml
-import v.reflection 
+import v.reflection
+import walkingdevel.vxml { parse }
 
 fn get_string(data string, field_name string) string {
 	for line in data.split_into_lines() {
@@ -16,6 +17,9 @@ fn get_int(data string, field string) int {
 }
 
 pub fn decode[T](data string) T {
+	mut docxml:=parse(data)
+	classname:=(T.name)
+	nodes:=docxml.get_elements_by_tag_name(classname)
 	mut result := T{}
 	// compile-time `for` loop
 	// T.fields gives an array of a field metadata type
