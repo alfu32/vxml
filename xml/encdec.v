@@ -24,7 +24,7 @@ pub fn decode[T](data string) []T {
 	// compile-time `for` loop
 	// T.fields gives an array of a field metadata type
 	for node in nodes {
-		mut inst := $(T.name){}
+		mut inst := T.name{}
 		$for field in T.fields {
 
 			name:=node.get_element_by_tag_name('${field.name}') or { panic(err) }
