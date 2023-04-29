@@ -2,19 +2,6 @@ module xml
 import v.reflection
 import walkingdevel.vxml { parse }
 
-fn get_string(data string, field_name string) string {
-	for line in data.split_into_lines() {
-		key_val := line.split('=')
-		if key_val[0] == field_name {
-			return key_val[1]
-		}
-	}
-	return ''
-}
-
-fn get_int(data string, field string) int {
-	return get_string(data, field).int()
-}
 
 pub fn decode[T](data string) []T {
 	mut docxml:=parse(data)
@@ -26,7 +13,6 @@ pub fn decode[T](data string) []T {
 	for node in nodes {
 		mut inst := T.name{}
 		$for field in T.fields {
-
 			name:=node.get_element_by_tag_name('${field.name}') or { panic(err) }
 			inst.$(field.name)=name.get_text()
 		}
